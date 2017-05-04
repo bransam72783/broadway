@@ -1,20 +1,22 @@
-		* {
-			
-			margin:15px;
-			padding: 0;
+		* {			
+			margin:0;
+			padding:0;
 			font-family: Helvetica;
-			
-
 		}
 
+		body {
+			background-color: black;
+		}
+	
 		/* Global Container */
 
 		.container {
-			width: 80%;
+			width: 60%;
 			margin: auto;
 			text-align: center;
 			font-family: Helvetica;
-
+			background-color: white;
+			
 		}
 
 
@@ -25,8 +27,7 @@
  		 	background-size: cover;
  		 	background-position: center;
  		 	
-
-		 }
+ 		 }
 
 		
 
@@ -41,12 +42,11 @@
 
 		header ul {
 			list-style: none;
-
-
 		}
 
 		header ul li {
-			
+			padding:10px;
+
 
 		}
 
@@ -59,9 +59,14 @@
 
 		/* Body starting under image */
 
+		.process{
+			line-height: 2.5;
+		}
+
 		.process h1{
 			font-size: 32px;
 			font-weight: 900;
+
 
 		}
 		 .process h2{
@@ -69,7 +74,7 @@
 			
 		}
 
-		#designed{
+		#designed{			
 			font-size: 23px;
 			font-weight: 900;
 			color: white;
@@ -78,6 +83,9 @@
 			background-repeat: no-repeat;
 		 	background-size: cover;
 		 	background-position: center;
+		}
+		.designed{
+			line-height: 2.0;
 		}
 
 		.designed h3{
@@ -90,6 +98,7 @@
 			background-color: gray;
 			color:white;
 			text-align: left;
+			margin-bottom: 20px;
 		}
 
 		footer a{
@@ -97,8 +106,17 @@
 			padding:0;
 			margin:0;
 			text-align: left;
+			font-weight: 900;
+			font-size: 15px;
 		}
 
+		#headspacer{
+			min-height: 45px;
+		}
+
+		#footspacer{
+			min-height: 1px;
+		}
 
 
 
